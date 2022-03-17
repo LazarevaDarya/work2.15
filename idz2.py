@@ -5,6 +5,7 @@
 import re
 import string
 
+
 input_text = open('idz2.txt', 'r').read().lower().split(' ')
 alphabet = list(string.ascii_lowercase)
 unique_words = []
